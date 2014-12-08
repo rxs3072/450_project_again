@@ -99,10 +99,11 @@ public class Parser{
 				}
 			else
 			{
-				System.out.println("UNGRAMMATICAL");
+				actionvalue="UNGRAMMATICAL";
 			}
 				
-	}	while(actionvalue!="accept");
+	}	while(actionvalue!="accept" ||actionvalue=="UNGRAMMATICAL" );
+				
 				
         printParseTree();
 	}
