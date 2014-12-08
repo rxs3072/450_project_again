@@ -103,7 +103,7 @@ public class Parser{
 				System.out.println("UNGRAMMATICAL");
 			}
 				
-	}	while(actionvalue!="accept" ||actionvalue!="UNGRAMMATICAL" );
+	}	while(actionvalue!="accept" && actionvalue!="UNGRAMMATICAL" );
 				
 				
         printParseTree();
