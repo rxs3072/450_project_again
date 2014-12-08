@@ -93,7 +93,7 @@ public class Parser{
 				
 				}
 				
-			else if(actionvalue=="accept")
+			if(actionvalue=="accept")
 				{
 					System.out.println("ACCEPT");
 				}
