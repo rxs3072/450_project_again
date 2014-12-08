@@ -100,6 +100,7 @@ public class Parser{
 			else
 			{
 				actionvalue="UNGRAMMATICAL";
+				System.out.println("UNGRAMMATICAL");
 			}
 				
 	}	while(actionvalue!="accept" ||actionvalue!="UNGRAMMATICAL" );
